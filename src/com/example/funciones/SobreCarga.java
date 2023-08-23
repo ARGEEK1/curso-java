@@ -1,6 +1,7 @@
-package com.example;
+package com.example.funciones;
 
-//cuando duplicamos una funcion, pero cambiamos el numeri de parametros,
+//permite duplicamos un metodo (funcion), simpre y cuando tenga fiferente
+// numero o tipo de parametros.
 //en este caso la funcion suma.
 public class SobreCarga {
     public static void main(String[] args) {
