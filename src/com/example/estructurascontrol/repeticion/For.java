@@ -12,7 +12,7 @@ public class For {
         for (int i = 0; i < nombres.length; i++) {
             System.out.println(nombres[i]);
         }
-
+        //int[] valores = new int[6]; se instancia un array de numeros, de 6 posiciones.
         int[] numeros = {1, 7, 3, 4, 8, 6, 20, 8};
         int suma = 0;
         for (int i = 0; i < numeros.length; i++) {
