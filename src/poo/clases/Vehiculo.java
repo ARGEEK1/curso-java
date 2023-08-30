@@ -37,4 +37,8 @@ public class Vehiculo {
 
 
     //toString
+    @Override
+    public String toString() {
+        return "Vehiculo [fabricante = " + fabricante + ", modelo = " + modelo + ", cc = " + cc + ", year = " + year + ", sport = " + sport + ", velocidad = " + velocidad + "]";
+    }
 }
