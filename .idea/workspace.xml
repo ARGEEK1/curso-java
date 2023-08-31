@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e4faf1a2-98a9-4cd7-990e-60564b08fb49" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/poo/clases/Motor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/poo/herencia/Camion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/poo/herencia/Coche.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/poo/herencia/Motocicleta.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/poo/clases/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/poo/clases/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/poo/clases/Vehiculo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/poo/clases/Vehiculo.java" afterDir="false" />
@@ -29,7 +31,9 @@
   "associatedIndex": 1
 }]]></component>
   <component name="ProjectId" id="2UINfr9WchWuQ2Aq3RMSBH29D3n" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />

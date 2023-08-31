@@ -2,13 +2,13 @@ package poo.clases;
 
 public class Vehiculo {
     // 1. atributos
-    String fabricante;
-    String modelo;
-    double cc;
-    int year;
-    boolean sport;
-    int velocidad;
-    Motor motor;
+    protected String fabricante;
+    protected String modelo;
+    protected double cc;
+    protected int year;
+    protected boolean sport;
+    protected int velocidad;
+    protected Motor motor;
 
     // 2. contructores
     // este contructor crearia un objeto vehiculo vacio, e incluso si no se declara ya existiria de forma inplicita.
