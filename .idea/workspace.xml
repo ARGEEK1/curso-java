@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e4faf1a2-98a9-4cd7-990e-60564b08fb49" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/example/tiposdedatosavanzados/TiposDeDatosAvanzados.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/example/tiposdedatosavanzados/TiposDeDatosAvanzados.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/example/tiposdedatosavanzados/TiposDeDatosAvanzados.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
