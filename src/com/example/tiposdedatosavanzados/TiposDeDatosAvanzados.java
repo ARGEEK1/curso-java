@@ -1,5 +1,7 @@
 package com.example.tiposdedatosavanzados;
 
+import java.sql.Array;
+import java.util.Arrays;
 import java.util.Locale;
 
 public class TiposDeDatosAvanzados {
@@ -25,6 +27,40 @@ public class TiposDeDatosAvanzados {
         }
 
         System.out.println(cadenaInvertida2(cadena));
+
+        //2. Arrays
+        // una variable que contiene muntiple valores consecutivos del mismo tipo.
+        int arrayUno[] = new int[5];
+        // Esta forma no la vamos a utilizar nunca, salvo cuando no sabemos que valores
+        // vamos a tener en nuetro array. ( cunado se rrellena con parametros, o desde la entrada).
+        arrayUno[0] = 4;
+        arrayUno[1] = 7;
+        arrayUno[2] = 3;
+        arrayUno[3] = 6;
+        arrayUno[4] = 1;
+        for (int i : arrayUno) {
+            System.out.println(i);
+        }
+
+        // Cuando si lo sabemos
+        int arrayDos[] = {1, 2, 3, 4, 5, 6};
+        String nombres[] = {
+                "Jose",
+                "Martin",
+                "Juan",
+        };
+        System.out.println(nombres.length);//A de los String .length no es un metodo, si no una
+        // propieda, por eso se coloca sin el llamado().
+        for (String i : nombres) {
+            System.out.println(i );
+        }
+        // si ya tenemos un array declarado y de forma implicita o explicita
+        // le decimos que vamos a tener 4 elementos por ejemplo, despues no puedes añadir
+        // 5to elememto.
+
+
+
+
     }
 
     static String cadenaInvertida(String cadena) {
