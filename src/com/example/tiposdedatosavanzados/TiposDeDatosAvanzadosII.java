@@ -1,5 +1,6 @@
 package com.example.tiposdedatosavanzados;
 
+import java.util.ArrayList;
 import java.util.Vector;
 
 public class TiposDeDatosAvanzadosII {
@@ -21,6 +22,39 @@ public class TiposDeDatosAvanzadosII {
         vector.capacity(); // capacidad, salida 10
         // los vectores son dinamicos, porque tinen un array de x cantidad de elementos
         // que seria la caopacidad, que a medida que se vayan agregando datos el va creciendo en su capacidad.
+        // cuando se llena la capacidad del array, el se copia en un array nuevo con mas capacidad y asi ...
+        // es un operacion costosa a nivel computacional.
+
+        Vector<Integer> vector1 = new Vector<>(50,15);//se le puede dar una capacidad inicial
+        // el segundo parametro es el incremento.
+        vector1.add(1);
+        vector1.add(2);
+        //Comparar vectores
+        boolean resultado = vector.equals(vector1); //salida true, son iguales.
+
+        // recorrelo
+        for (int i : vector1) {
+            System.out.println(i);
+        }
+
+        for (int i = 0; i < vector1.size(); i++) {
+            System.out.println(vector1.get(i));
+        }
+
+        vector1.trimToSize();// reduce la capacidad del vector hasta lo que contiene
+        //antes 50 ahora 2
+
+
+        //3. Array List
+        //List<String> lista = new ArrayList<String>(); //versiones previas, ahora hya que ser explicitos.
+        //Un array list es la implementacion de la interfaz list. es muy similar al vector.
+        ArrayList<String> lista = new ArrayList<String>();
+        lista.add("hola");
+        lista.add("que");
+        lista.add("tal ?");
+
+        //El vector de se aumenta por 2, osea que la doblaba
+        //El array List crece en un 50% de su capacidad original.
 
 
 
