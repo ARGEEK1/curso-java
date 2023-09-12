@@ -67,6 +67,5 @@ public class TiposDeDatosAvanzadosII {
         for (int i = 0; i < lista.size(); i++) {
             array[i] = lista.get(i);
         }
-        System.out.println(array.to);
     }
 }
