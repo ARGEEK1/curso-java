@@ -1,5 +1,6 @@
 package com.example.tiposdedatosavanzados;
 
+import java.sql.Array;
 import java.util.ArrayList;
 import java.util.Vector;
 
@@ -25,7 +26,7 @@ public class TiposDeDatosAvanzadosII {
         // cuando se llena la capacidad del array, el se copia en un array nuevo con mas capacidad y asi ...
         // es un operacion costosa a nivel computacional.
 
-        Vector<Integer> vector1 = new Vector<>(50,15);//se le puede dar una capacidad inicial
+        Vector<Integer> vector1 = new Vector<>(50, 15);//se le puede dar una capacidad inicial
         // el segundo parametro es el incremento.
         vector1.add(1);
         vector1.add(2);
@@ -53,11 +54,19 @@ public class TiposDeDatosAvanzadosII {
         lista.add("que");
         lista.add("tal ?");
 
+        lista.remove(1);// lo puedes remover o con el intedex o con el contenido el contenido ("hola")
+
         //El vector de se aumenta por 2, osea que la doblaba
         //El array List crece en un 50% de su capacidad original.
+        // SE recorren de la misma manera.
 
+        // Utilizamos las sintaxis new, porque no se que valores tendra muy array.
+        // por lo tanto no la inicializamos {"", "" ,""}
+        String[] array = new String[lista.size()];
 
-
-
+        for (int i = 0; i < lista.size(); i++) {
+            array[i] = lista.get(i);
+        }
+        System.out.println(array.to);
     }
 }
