@@ -63,7 +63,6 @@ public class TiposDeDatosAvanzadosII {
         // Utilizamos las sintaxis new, porque no se que valores tendra muy array.
         // por lo tanto no la inicializamos {"", "" ,""}
         String[] array = new String[lista.size()];
-
         for (int i = 0; i < lista.size(); i++) {
             array[i] = lista.get(i);
         }
