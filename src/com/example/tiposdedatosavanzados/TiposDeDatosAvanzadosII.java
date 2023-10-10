@@ -1,5 +1,6 @@
 package com.example.tiposdedatosavanzados;
 
+import java.math.BigDecimal;
 import java.sql.Array;
 import java.util.ArrayList;
 import java.util.Vector;
@@ -63,8 +64,37 @@ public class TiposDeDatosAvanzadosII {
         // Utilizamos las sintaxis new, porque no se que valores tendra muy array.
         // por lo tanto no la inicializamos {"", "" ,""}
         String[] array = new String[lista.size()];
+
         for (int i = 0; i < lista.size(); i++) {
             array[i] = lista.get(i);
         }
+
+        for (String elemento : array) {
+            System.out.println(elemento);
+        }
+
+        // La clase Object todo en java deriva de esta clase.
+        for (Object arrayObjeto : lista.toArray()) {
+            System.out.println(arrayObjeto.toString());
+        }
+
+        //Lo que requiere una alta precisión, no lo aremos con duble ni float
+        //utilizaremos una clase llamada BigDecimal
+
+        BigDecimal valorA = new BigDecimal(0.1f);
+        //cuando queremos trabajr con con una variable creada como un BigDecimal
+        //tenemos que trabajarla con los metodos apropiados que nos brinda la misma clase BigDecimal.
+
+        BigDecimal valorB = new BigDecimal(4);
+        //cunndo operas con los metodos de BigDecimal, los parametros que espera
+        // tienen que ser bigdecimal tambien.
+        System.out.println(valorA.multiply(valorB));
+        System.out.println(valorA);
+        System.out.println(valorA.add(valorB));
+
+
+
+
+
     }
 }
