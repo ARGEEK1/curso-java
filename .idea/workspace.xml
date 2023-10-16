@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e4faf1a2-98a9-4cd7-990e-60564b08fb49" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/example/tiposdedatosavanzados/EntradaSalida.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/example/tiposdedatosavanzados/TiposDeDatosAvanzadosII.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/example/tiposdedatosavanzados/TiposDeDatosAvanzadosII.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/example/tiposdedatosavanzados/Mapas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/example/tiposdedatosavanzados/Mapas.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,7 +25,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="QODANA_PROBLEMS_VIEW_TAB" />
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 1
@@ -50,13 +51,13 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.TiposDeDatosAvanzadosII">
-    <configuration name="For" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.estructurascontrol.repeticion.For" />
+  <component name="RunManager" selected="Application.EntradaSalida">
+    <configuration name="EntradaSalida" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.tiposdedatosavanzados.EntradaSalida" />
       <module name="sesion-java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.example.estructurascontrol.repeticion.*" />
+          <option name="PATTERN" value="com.example.tiposdedatosavanzados.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -64,12 +65,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="poo.clases.Main" />
+    <configuration name="Mapas" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.tiposdedatosavanzados.Mapas" />
       <module name="sesion-java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="poo.clases.*" />
+          <option name="PATTERN" value="com.example.tiposdedatosavanzados.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -118,11 +119,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.EntradaSalida" />
+        <item itemvalue="Application.Mapas" />
         <item itemvalue="Application.TiposDeDatosAvanzadosII" />
         <item itemvalue="Application.TiposDeDatosAvanzados" />
         <item itemvalue="Application.While" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.For" />
       </list>
     </recent_temporary>
   </component>
